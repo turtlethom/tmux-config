@@ -18,10 +18,10 @@ fi
 
 # Install the new configuration
 echo "Installing tmux configuration..."
-cp .tmux.config "$HOME_DIR/.tmux.conf"
-cp -r tmux.d "$HOME_DIR/"
+cp .tmux.conf "$HOME_DIR/.tmux.conf"
+cp -r .tmux.d "$HOME_DIR/"
 
 echo "Installation complete!"
 echo "Your tmux configuration is now installed in:"
 echo " - ~/.tmux.conf"
-echo " - ~/tmux.d/"
+echo " - ~/.tmux.d/"
