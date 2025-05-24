@@ -13,7 +13,7 @@ HOME_DIR="$HOME"
 # Backup existing tmux config if it exists
 if [ -f "$HOME_DIR/.tmux.conf" ]; then
   echo "Found existing .tmux.conf - creating backup as .tmux.conf.bak"
-  cp "$HOME_DIR/.tmuxconf" "$HOME_DIR/.tmux.conf.bak"
+  cp "$HOME_DIR/.tmux.conf" "$HOME_DIR/.tmux.conf.bak"
 fi
 
 # Install the new configuration
