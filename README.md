@@ -30,4 +30,8 @@ cd ~/.tmux-config
 chmod +x install.sh
 # Run the installation script
 ./install.sh
+# Install tmux plugins
+PREFIX (<CTRL-SPACE> OR <CTRL-B>) + I
+# Refresh tmux (or restart terminal)
+PREFIX (<CTRL-SPACE> OR <CTRL-B>) + r
 ```
