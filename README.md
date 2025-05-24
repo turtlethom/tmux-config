@@ -14,6 +14,7 @@
 Before installation, ensure you have:
 
 - `tmux` installed (`sudo apt install tmux` on Debian)
+- `tmux package manager` installed (`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`)
 - Git installed (`sudo apt install git`)
 - Basic terminal utilities (curl, sed, etc.)
 
