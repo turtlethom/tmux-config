@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 # Install script for tmux configuration
 # Check if we're in the right directory (optional but recommended)
 if [ ! -f ".tmux.config" ] || [ ! -d "tmux.d" ]; then
