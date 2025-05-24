@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install script for tmux configuration
 # Check if we're in the right directory (optional but recommended)
-if [ ! -f ".tmux.config" ] || [ ! -d "tmux.d" ]; then
+if [ ! -f ".tmux.conf" ] || [ ! -d "tmux.d" ]; then
   echo "Error: Must run this script from the tmux-config directory"
   echo "Could not find .tmux.config or tmux.d/"
   exit 1
