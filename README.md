@@ -34,5 +34,5 @@ chmod +x install.sh
 # Install tmux plugins
 PREFIX (<CTRL-SPACE> OR <CTRL-B>) + I
 # Refresh tmux (or restart terminal)
-PREFIX (<CTRL-SPACE> OR <CTRL-B>) + r
+PREFIX (<CTRL-SPACE> OR <CTRL-B>) + R
 ```
